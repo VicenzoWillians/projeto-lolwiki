@@ -1,0 +1,440 @@
+body, html{
+    font-family: 'Roboto', sans-serif;
+}
+
+#lolwiki-navbar .nav-logo {
+    font-weight: 500;
+    color: rgb(207, 167, 91);
+}
+
+#lolwiki-navbar .nav-link:hover {
+    border-bottom: 0.1rem solid #00A0BA;
+}
+
+#lolwiki-navbar .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    border-bottom: 0.1rem solid transparent;
+}
+
+#lolwiki-navbar .nav-login {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    margin-top: 10px;
+}
+    
+section{
+    margin-top: 55px;
+}
+
+.carousel {
+    margin-bottom: 3.6rem;
+}
+
+.carousel-item {
+    height: 32rem;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: block;
+}
+
+.content .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.content h2 {
+    font-weight: 400;
+}
+
+.content .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+.divider {
+    margin: 5rem 0;
+}
+
+@media (min-width: 62em){
+    .heading {
+        margin-top: 7rem;
+    }
+}
+@media (min-width: 40em){
+    .heading {
+        font-size: 50px;
+    }
+}
+
+.heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+.footer {
+    padding: 2.5rem 0;
+    color: white;
+    text-align: center;
+    background-color: #111111;
+    border-top: .05rem solid #111111;
+    margin-top: 8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    border-bottom: 0.1rem solid #00A0BA;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #111111;
+    color: white; 
+    cursor: pointer; 
+    padding: 20px;
+    border-radius: 30px;
+}
+  
+#myBtn:hover {
+    background-color: #1D1D1D;
+}
+
+#navbarNav #dropdown-hover {
+    transition: all 0.3s ease-in-out;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: #111111;  
+    box-shadow: 2px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-menu a{
+    color: white !important;
+    padding: 12px 32px;
+    font-weight: 500;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    transition: all 0.5s ease-in-out;
+    margin: 0;
+}
+
+.dropdown .dropdown-menu a:hover{
+    background-color: #1D1D1D;
+}
+
+
+/* LISTA DE CAMPEÕES */
+.title {
+    margin-top: 80px;
+    font-size: 4.5em;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.card-margin {
+    margin-bottom: 1.875rem;
+}
+  
+@media (min-width: 992px){
+    .col-lg-2 {
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+}
+  
+.card-margin {
+    margin-bottom: 1.875rem;
+}
+
+.card {
+    border: 0;
+    box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+    -ms-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);  
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    background-clip: border-box;
+    border: 1px solid #e6e4e9;
+    border-radius: 8px;
+}
+
+/*LIST CHAMPION*/
+#champions .card-body {
+    background-color: #1D1D1D;
+    color: white;
+    font-style: italic;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+}
+
+#champions a{
+    text-decoration: none;
+}
+
+#champions .card-body:hover{
+    background-color:#00A0BA;
+    padding-left: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+#champions .col:hover{
+    transform: scale3d(1.05, 1.05, 1);
+}
+
+.rotation {
+    margin-top: 20px;
+}
+
+#list-champions-filter .list-group-item {
+    color: white;
+    background-color: #111111;
+}
+
+#list-champions-filter .list-group-item:hover {
+    color: white;
+    background-color: #00A0BA;
+}
+
+.champion-page p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.champion-page-slide h1, h3{
+    text-shadow: 0 0 3rem #000, 0 0 3rem #000;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: "Penumbra Half Serif";
+
+}
+
+.carousel-item {
+    height: 35vw;
+}
+
+.champion-page-slide {
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+    border-bottom: .17rem solid #ada176;
+}
+
+.champion-page-slide h1{
+    font-size: 6rem;
+    letter-spacing: 2rem;
+    line-height: 1.2;
+}
+
+.champion-page-slide h3{
+    font-style: italic;
+    font-size: 2em;
+    letter-spacing: 0.7rem;
+    margin-bottom: 2rem ;
+    color: #ada176;
+}
+
+.header-gradient {
+    background: -webkit-gradient(linear,left bottom,left top,from(#000),to(transparent));
+    background: linear-gradient(0deg,#000,transparent);
+    left: 0;
+    bottom: 0;
+    height: 45%;
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+}
+
+.champion-page-content {
+    margin-top: 1rem;
+}
+
+.champion-page-section {
+    font-size: 0.8rem;
+}
+
+.table-champion{
+    padding-left: 3.3rem;
+}
+
+.row h6{
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+}
+
+.font {
+    font-family: "Penumbra Half Serif";
+}
+
+.champion-classification{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-weight: 700;
+}
+
+#more-info p{
+    padding-right: 5rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+
+#more-info a{
+    color: black;
+    text-decoration: none;
+}
+
+#more-info a:hover{
+    text-decoration: underline;
+}
+
+.content-habilidades {
+    margin-bottom: 1.2;
+}
+
+.habilidades-video {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+h1 {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+h1:before, h1:after {
+    position: absolute;
+    top: 50%;
+    overflow: hidden;
+    width: 50%;
+    height: 2px;
+    content: '\a0';
+}
+
+h1:before {
+    margin-left: -51%;
+    text-align: right;
+}
+
+h1:after{
+    margin-left: 1%;
+}
+
+.h1-title:before, .h1-title:after{
+    background-color: white;
+}
+
+.h1-body:before, .h1-body:after{
+    background-color: #ada176;
+    
+}
+
+.h1-body{
+    color: #ada176;
+    font-style: italic;
+}
+
+.skin-content{
+    border-right: 1px solid black;
+}
+
+.skin-content button{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 0.5rem;
+
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.margin-skin-text {
+    margin-left: 0.3rem;
+}
+
+.mySkin {
+    display: flex;
+    align-items: center;
+}
+
+#btn-campeoes {
+    display: block;
+    position: fixed;
+    top: 100px;
+    right: 15px;
+    z-index: 99;
+    background-color: #111111;
+    cursor: pointer; 
+    padding: 10px 20px;
+    border: 1px solid #00A0BA;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 0.8rem;
+}
+
+#btn-campeoes a{
+    text-decoration: none;
+    color: white;
+}
+  
+#btn-campeoes:hover {
+    background-color: #1D1D1D;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.cover {
+    transform: scale3d(1, 1.5, 1);
+    background-position: center;
+    object-fit: contain;
+}
